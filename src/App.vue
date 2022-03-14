@@ -1,13 +1,30 @@
 <template>
-    
+    <div>
+        <p>Моя любимая пуся!!!</p>
+    </div>
 </template>
 
 <script>
     export default {
-        name: "App.vue"
+        data() {
+            return {
+
+            }
+        }
     }
 </script>
 
-<style scoped>
+<style >
+    * {
+        background-color: aquamarine;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
+    div > p {
+        color: chartreuse;
+        font-family: "Arial Narrow";
+        font-size: larger;
+    }
 </style>
